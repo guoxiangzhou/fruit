@@ -16,6 +16,7 @@
 
 #include "cached_greeter.h"
 #include "key_value_storage.h"
+#include "fake_key_value_storage.h"
 
 class CachedGreeterImpl : public Greeter {
 private:

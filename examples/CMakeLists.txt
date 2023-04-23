@@ -10,6 +10,7 @@ endif()
 
 add_subdirectory(simple_injection)
 add_subdirectory(hello_world)
+add_subdirectory(custom)
 
 # This uses threads and doesn't work on Windows (at least when using MinGW's GCC).
 if(NOT "${WIN32}")
